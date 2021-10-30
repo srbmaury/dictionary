@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="overflow-y: hidden; background-image:url('download.jpg'); background-size: cover;">
+    <div id="mainpage">
+        <h1>English to hindi dictionary</h1>
+        <div id="head">Type the word</div>
+    
+        <input type="search" name="" id="inputs">
+        <button onclick = "Show()">Translate</button>
+        <p></p>
+        <span id="ex"></span>
+        <span id="demo"></span>
+        <div id="source">A collection of 4306 words</div>
+
+        <p id="projects">To see my all projects click <a href="https://srbmaury.github.io/myallprojects" target="_blank">here</a></p>
+        <button id="showWords" onClick = "ShoWords()">Show words</button>
+    </div>
+    <div>
+        <button id="refresh" onclick="location.reload()"><img src="arrow-118-48.png" alt="Return"></button>
+        <br>
+        <p id="com"></p>
+    </div>
+
+    <script src = "main.js"></script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0;
+}
+h1{
+    margin-left: 4vw;
+    margin-top: 20px;
+    font-weight: 900;
+}
+#head{
+    margin-top: 20px;
+    font-size: 23px;
+    margin-left: 11vw;
+}
+input{
+    margin-top: 22px;
+    margin-left: 4.5vw;
+    margin-right: 20px;
+    height:30px;
+    width:250px;
+    font-size: 23px;
+    border:0;
+    box-shadow: 5px 5px 5px #aaaaaa;
+}
+input::after{
+    border: 0;
+}
+input::before{
+    border: 0;
+}
+button{
+    height: 26px;
+    width:80px;
+    background-color: aliceblue;
+    border: 0ch;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #aaaaaa;
+}
+#ex,#demo{
+    margin-top: 30px;
+    font-size: 23px;
+    margin-left: 34.5vw;
+}
+#ex{
+    margin-left: 6vw;
+}
+#source{
+    margin-top: 20px;
+    margin-left: 9.5vw;
+}
+a{
+    text-decoration: none;
+}
+#demo{
+    margin-left: 0em;
+}
+body{
+    padding-top: 20vh;
+}
+#projects{
+    margin-left: 8.5vw;
+}
+#mainpage{
+    background-color: #FED5DB;
+    padding: 50px;
+    padding-top:20px;
+    margin-left:30vw;
+    width:35vw;
+    border-radius: 10px;
+    border: 1px solid #BFBFBF;
+    /* background-color: white; */
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+#showWords{
+    margin-top: 5%;
+    margin-left:40%;
+    margin-bottom: -20px;
+}
+#com{
+    visibility: hidden;
+    margin-top: -255px;
+    margin-left: 25%;
+    width:40%;
+    padding: 20px 0px 20px 230px;
+    font-family: monospace; 
+    overflow-y: scroll;
+    border-radius: 6px;
+    box-shadow: 10px 10px #555;
+    line-height: 3em;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+#refresh{
+    height:70px;
+    width:70px;
+    font-size: 15px;
+    border-radius: 50px;
+    margin-left: 260px;
+    visibility: hidden;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 5px 5px 5px #aaaaaa;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+@media only screen and (max-width:600px){
+    *{
+        font-size: 12px;
+    }
+    #mainpage{
+        min-width: 100vw;
+        padding: 5px;
+        padding-top:10px;
+        margin-left: 1px;
+        border-radius: 10px;
+        margin-right: 1px;
+    }
+    input{
+        max-width:150px;
+        height:30px;
+    }
+    button{
+        margin-left:38px;
+        margin-top: 20px;
+    }
+    #ex,#demo{
+        font-size: 12px;
+    }
+    #ex{
+        margin-left: 3px;
+    }
+    #source{
+        margin-top: 20px;
+    }
+    #showWords{
+        visibility: hidden;
+    }
+}
